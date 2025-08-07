@@ -15,8 +15,8 @@ public class VariableExercises {
      * @return the integer value 42
      */
     public int initializeInteger() {
-        // TODO: Implement this method
-        throw new UnsupportedOperationException("Method not implemented yet");
+        int num = 42;
+        return num;
     }
 
     /**
@@ -25,7 +25,8 @@ public class VariableExercises {
      */
     public double initializeDouble() {
         // TODO: Implement this method
-        throw new UnsupportedOperationException("Method not implemented yet");
+        double num = 3.14159;
+        return num;
     }
 
     /**
@@ -33,8 +34,9 @@ public class VariableExercises {
      * @return the boolean value true
      */
     public boolean initializeBoolean() {
-        // TODO: Implement this method
-        throw new UnsupportedOperationException("Method not implemented yet");
+        boolean num = true;
+        return num;
+        
     }
 
     /**
@@ -42,17 +44,18 @@ public class VariableExercises {
      * @return the char value 'A'
      */
     public char initializeChar() {
-        // TODO: Implement this method
-        throw new UnsupportedOperationException("Method not implemented yet");
+        char letter = 'A';
+        return letter;
     }
 
     /**
-     * Declare and initialize a String variable with the value "Hello, World!"
+     * Declare and initialize a String variable with the value  "Hello, World!"
      * @return the String value "Hello, World!"
      */
     public String initializeString() {
-        // TODO: Implement this method
-        throw new UnsupportedOperationException("Method not implemented yet");
+        String words = "Hello, World!";
+        return words;
+        
     }
 
     /**
@@ -66,7 +69,10 @@ public class VariableExercises {
         // value = value + 5;  // or value += 5;
         // value = value * 2;  // or value *= 2;
         // return value;
-        throw new UnsupportedOperationException("Method not implemented yet");
+        int value = 10;
+        value = value + 5;
+        value = value * 2;
+        return value;
     }
 
     /**
@@ -78,7 +84,9 @@ public class VariableExercises {
         // TODO: Implement this method
         // final int CONSTANT_VALUE = 100;
         // return CONSTANT_VALUE;
-        throw new UnsupportedOperationException("Method not implemented yet");
+        final int CONSTANT_VALUE = 100;
+        return CONSTANT_VALUE;
+
     }
 
     /**
@@ -90,6 +98,7 @@ public class VariableExercises {
         // TODO: Implement this method
         // double originalValue = 9.99;
         // return (int) originalValue;
-        throw new UnsupportedOperationException("Method not implemented yet");
+        double originalValue = 9.99;
+        return  (int) originalValue;
     }
 }
