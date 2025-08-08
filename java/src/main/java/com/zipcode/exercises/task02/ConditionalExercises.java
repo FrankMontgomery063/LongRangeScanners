@@ -18,8 +18,14 @@ public class ConditionalExercises {
      */
     public String checkPositive(int number) {
         // TODO: Implement this method
-        throw new UnsupportedOperationException("Method not implemented yet");
-    }
+        if (number > 0) {
+            return "positive";
+
+        } else {
+            return "not positive";
+        }
+    }     
+  
 
     /**
      * If-else statement
@@ -28,8 +34,10 @@ public class ConditionalExercises {
      * @return "even" or "odd"
      */
     public String checkEvenOdd(int number) {
-        // TODO: Implement this method
-        throw new UnsupportedOperationException("Method not implemented yet");
+        if (number % 2 == 0) {
+            return "even";
+        }
+        return "odd";
     }
 
     /**
@@ -39,8 +47,15 @@ public class ConditionalExercises {
      * @return letter grade as String
      */
     public String getLetterGrade(int score) {
-        // TODO: Implement this method
-        throw new UnsupportedOperationException("Method not implemented yet");
+        if (score >= 90 && score <= 100) {
+            return "A";
+        } else if (score >= 80 && score < 90) {
+            return "B";
+        } else if (score >= 70 && score < 80) {
+            return "C";
+        } else {
+            return "F";
+        }
     }
 
     /**
@@ -51,8 +66,16 @@ public class ConditionalExercises {
      * @return category as String
      */
     public String categorizeNumber(int number) {
-        // TODO: Implement this method
-        throw new UnsupportedOperationException("Method not implemented yet");
+
+        if (number > 100) {
+            return "large positive";
+        } else if (number > 0 && number <= 100) {
+            return "small positive";
+        } else if (number == 0) {
+            return "zero";
+        } else {
+            return "negative";
+        }
     }
 
     /**
